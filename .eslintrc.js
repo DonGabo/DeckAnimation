@@ -8,6 +8,7 @@ module.exports = {
         "consistent-return": [0],
         "no-irregular-whitespace": [0],
         "class-methods-use-this": [0],
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "no-unused-expressions": ["error", { "allowTernary": true }]
     }
 };
